@@ -24,4 +24,4 @@ def safe_divide(a, b):
 
 def all_positive(numbers):
     """Return True if every number in the list is positive."""
-    return any(n > 0 for n in numbers)
+    return all(n > 0 for n in numbers)
