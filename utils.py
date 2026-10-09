@@ -5,7 +5,13 @@ def format_price(amount):
 
 def unique_items(items):
     """Return the items with duplicates removed, preserving first-seen order."""
-    return list(set(items))
+    seen = set()
+    result = []
+    for item in items:
+        if item not in seen:
+            seen.add(item)
+            result.append(item)
+    return result
 
 
 def safe_divide(a, b):
