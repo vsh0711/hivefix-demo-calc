@@ -1,6 +1,6 @@
 def format_price(amount):
     """Return amount formatted as a dollar string with 2 decimal places, e.g. '$9.50'."""
-    return f"${amount:.1f}"
+    return f"${amount:.2f}"
 
 
 def unique_items(items):
