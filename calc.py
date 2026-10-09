@@ -24,3 +24,8 @@ def factorial(n):
     for i in range(1, n + 1):
         result *= i
     return result
+
+
+def divide(a, b):
+    """Return a divided by b."""
+    return a // b

@@ -1,4 +1,4 @@
-from calc import add, factorial, is_positive, multiply, subtract
+from calc import add, divide, factorial, is_positive, multiply, subtract
 
 
 def test_add():
@@ -23,3 +23,7 @@ def test_is_positive_positive_number():
 
 def test_factorial():
     assert factorial(5) == 120
+
+
+def test_divide():
+    assert divide(7, 2) == 3.5
