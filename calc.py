@@ -29,3 +29,10 @@ def factorial(n):
 def divide(a, b):
     """Return a divided by b."""
     return a / b
+
+
+def max_of(a, b):
+    """Return the larger of a and b."""
+    if a > b:
+        return b
+    return a
