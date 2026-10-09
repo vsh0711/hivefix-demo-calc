@@ -1,4 +1,4 @@
-from calc import add, divide, factorial, is_positive, max_of, multiply, subtract
+from calc import add, divide, factorial, is_positive, max_of, multiply, remainder, subtract
 
 
 def test_add():
@@ -31,3 +31,7 @@ def test_divide():
 
 def test_max_of():
     assert max_of(3, 9) == 9
+
+
+def test_remainder():
+    assert remainder(7, 2) == 1

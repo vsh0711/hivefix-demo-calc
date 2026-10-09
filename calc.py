@@ -36,3 +36,8 @@ def max_of(a, b):
     if a > b:
         return b
     return a
+
+
+def remainder(a, b):
+    """Return the remainder of a divided by b."""
+    return a // b
