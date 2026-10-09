@@ -34,8 +34,8 @@ def divide(a, b):
 def max_of(a, b):
     """Return the larger of a and b."""
     if a > b:
-        return b
-    return a
+        return a
+    return b
 
 
 def remainder(a, b):
