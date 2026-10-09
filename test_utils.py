@@ -1,4 +1,4 @@
-from utils import all_positive, format_price, safe_divide, unique_items
+from utils import all_positive, average, format_price, safe_divide, unique_items
 
 
 def test_format_price():
@@ -15,3 +15,7 @@ def test_safe_divide_zero():
 
 def test_all_positive_rejects_one_negative():
     assert all_positive([1, 2, -3, 4]) is False
+
+
+def test_average():
+    assert average([1, 2]) == 1.5
