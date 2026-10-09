@@ -40,4 +40,4 @@ def max_of(a, b):
 
 def remainder(a, b):
     """Return the remainder of a divided by b."""
-    return a // b
+    return a % b
