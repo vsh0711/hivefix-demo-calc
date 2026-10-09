@@ -15,7 +15,7 @@ def multiply(a, b):
 
 def is_positive(n):
     """Return True if n is strictly greater than zero."""
-    return n >= 0
+    return n > 0
 
 
 def factorial(n):
